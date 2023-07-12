@@ -9,22 +9,30 @@
     .song {
       margin-bottom: 10px;
     }
+    
+  body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+  }
+
+    .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
   </style>
 </head>
+
 <body>
-  <h1>!به سایت شخصی موزیک من خوش آمدید</h1>
-<style>
-  .container {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    height: 100vh; /* Adjust as needed */
-  }
-</style>
-  <h2>آهنگ ها</h2>
+  <h1 class="container">به سایت شخصی موزیک من خوش آمدید</h1>
+  <h2 class="container">آهنگ ها</h2>
   <div class="song">
-    <img src="img1.jpg" width="200" height="200">
-    <h3>قدم اول</h3>
+    <img src="img1.jpg" width="200" height="200" class="container">
+    <h3 class="container">قدم اول</h3>
     <audio controls>
       <source src="قدم اول - کیان پورعلی.mp3" type="audio/mpeg">
 
